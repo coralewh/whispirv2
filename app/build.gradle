@@ -40,14 +40,14 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'io.github.coralewh'
-            artifactId = 'whispir-java'
+            artifactId = 'whispirv2'
             version = '1.0'
             from components.java
 
             pom {
-                name = 'whispir-java'
+                name = 'whispirv2'
                 description = 'a test project to publish to maven repo'
-                url = 'https://github.com/coralewh/whispir-java'
+                url = 'https://github.com/coralewh/whispirv2'
                 inceptionYear = '2022'
 
                 licenses {
@@ -66,9 +66,9 @@ publishing {
                 }
 
                 scm {
-                    connection = 'scm:git:git:github.com/coralewh/whispir-java.git'
-                    developerConnection = 'scm:git:ssh:github.com/coralewh/whispir-java.git'
-                    url = 'https://github.com/coralewh/whispir-java'
+                    connection = 'scm:git:git:github.com/coralewh/whispirv2.git'
+                    developerConnection = 'scm:git:ssh:github.com/coralewh/whispirv2.git'
+                    url = 'https://github.com/coralewh/whispirv2'
                 }
             }
         } 
